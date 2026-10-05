@@ -1,0 +1,116 @@
+/* .box{
+    background-color:aqua;
+    color:black;
+    height:150px;
+    width:150px;
+    /* justify-content: center; */
+    /* text-align:center; */
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(159, 147, 147);
+}
+h1{
+    color:white;
+    text-align:center;
+}
+.container{
+    height:70vh;
+    /* width:60vh; */
+    display:flex;
+     justify-content:center;
+    /* flex-wrap:wrap; */
+    align-items:center;
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    background-color:rgb(102, 120, 169);
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:1.5vmin; 
+    
+
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius:1rem;
+    background-color:rgb(255, 0, 0);
+    justify-content:center;
+    /* display:flex; */
+     align-items:center; 
+     font-size:10vmin;
+     color:rgb(249, 238, 255);
+    /* gap:1.5vmin;
+     */
+}
+
+/* #reset{ */
+    /* text-align:center; */
+    /* height:8vmin;
+    width:8vmin;
+    background-color:rgb(211, 211, 211);
+    color:cadetblue;
+    font-size:2vmin;
+    display:flex;
+    justify-content:center;
+    align-items:center; */
+/* } */
+.btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#reset{
+    height:15vmin;
+    width: 20vmin;
+    background-color:rgb(0, 255, 34);
+    color:black;
+    font-size:2vmin;
+    font-weight:1000;
+    border-radius:1.5vmin;
+
+
+}
+
+#new-game{
+    height:15vmin;
+    width: 20vmin;
+    background-color:rgb(0, 255, 34);
+    color:black;
+    font-size:2vmin;
+    font-weight:1000;
+    border-radius:1.5vmin;
+
+}
+
+#winner{
+    color:rgb(239, 254, 33);
+    height:10vmin;
+    width:10vmin;
+    font-size:10vmin;
+    text-align:center;
+}
+
+.msg-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    gap:5vmin;
+}
+
+.hide{
+    display:none;
+}
